@@ -1,0 +1,59 @@
+Changelog
+=========
+
+Changelog for the Cpanel UAPI PHP Class
+
+version 2.0
+=============
+
+New:
+  - Chaining support added
+  - __get() added to support setting api and scope with an unbroken chain
+  - made cURL request errors available
+
+Changes / Improvements:
+  - Removed backwards compatability for older systems using php base path and safe mode
+  - Removed now redundant additional classes for UAPI and API 2. These are now called by chaining ->api2 or ->uapi.
+  - Added a setScope() function to set the scoupe outside of the chain.
+  - cleaned up the code a little
+
+Warning:
+  - This is not backwards compatable with past versions in a consistant way. Developers using v1.1 will need to change the class calls for the api version for example.
+
+version 1.1
+=============
+
+New:
+- Generalised the class to now support API2 as well as UAPI.
+  $uapi = new cpanelUAPI();
+  $api = new cpanelAPI2();
+
+  The usage is the same, the main difference is in the internal processing, hence the separation.
+- Added the ability to get the last request URL for debugging / logging.
+
+Changes / Improvements:
+- Added error checking
+- Added more and better commenting
+- Renamed a few veriables.
+
+Bugs:
+- Added maxredirect, set default to 0 for issue #2
+
+version 1.0.2
+=============
+
+# Renamed cpaneluapi.class to cpaneluapi.class.php to avoid issues with IDEs
+# Added new examples file for the mysql module
+# Added php file comments and a gitignore file to ignore phpstorm project files.
+
+version 1.0.1
+=============
+
+# Fixed local reference to user and pass vars
+# some commenting
+# other fixes.
+
+Version 1.0
+===========
+
+# Initial commit

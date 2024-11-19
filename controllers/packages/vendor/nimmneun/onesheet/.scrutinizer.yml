@@ -1,0 +1,15 @@
+filter:
+  excluded_paths:
+    - 'tests/*'
+checks:
+  php: true
+build:
+  environment:
+    php: '7.3'
+  tests:
+    override:
+      -
+        command: 'vendor/phpunit/phpunit/phpunit --coverage-clover=.coverage.tmp'
+        coverage:
+          file: '.coverage.tmp'
+          format: 'clover'

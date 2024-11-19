@@ -1,0 +1,4 @@
+.idea/
+vendor/
+dummy/
+/composer.lock

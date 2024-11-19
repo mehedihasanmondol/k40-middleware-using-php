@@ -1,0 +1,641 @@
+{
+    "packages": [
+        {
+            "name": "codeguy/upload",
+            "version": "1.3.2",
+            "version_normalized": "1.3.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/brandonsavage/Upload.git",
+                "reference": "6a9e5e1fb58d65346d0e557db2d46fb25efd3e37"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/brandonsavage/Upload/zipball/6a9e5e1fb58d65346d0e557db2d46fb25efd3e37",
+                "reference": "6a9e5e1fb58d65346d0e557db2d46fb25efd3e37",
+                "shasum": ""
+            },
+            "require": {
+                "ext-fileinfo": "*",
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*"
+            },
+            "time": "2013-07-07T17:01:41+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-0": {
+                    "Upload": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Josh Lockhart",
+                    "email": "info@joshlockhart.com",
+                    "homepage": "https://github.com/codeguy/"
+                }
+            ],
+            "description": "Handle file uploads with extensible validation and storage strategies",
+            "homepage": "http://github.com/codeguy/Upload",
+            "keywords": [
+                "file",
+                "upload",
+                "validation"
+            ],
+            "install-path": "../codeguy/upload"
+        },
+        {
+            "name": "ellumilel/php-excel-writer",
+            "version": "v0.1.9",
+            "version_normalized": "0.1.9.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ellumilel/php-excel-writer.git",
+                "reference": "1f0813bc1aa17af2d05db624a6f6c99a4ce3e054"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ellumilel/php-excel-writer/zipball/1f0813bc1aa17af2d05db624a6f6c99a4ce3e054",
+                "reference": "1f0813bc1aa17af2d05db624a6f6c99a4ce3e054",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^5.4|^7.0|^8.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.8|~5.7|~6.0|^9.4",
+                "squizlabs/php_codesniffer": "~2.0"
+            },
+            "time": "2020-11-13T11:25:26+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Ellumilel\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Denis Tikhonov",
+                    "email": "ozy@mailserver.ru",
+                    "homepage": "https://github.com/Ellumilel/php-excel-writer",
+                    "role": "Author"
+                }
+            ],
+            "description": "Big data Excel writer with small memory consuming",
+            "homepage": "https://github.com/Ellumilel/php-excel-writer",
+            "keywords": [
+                "big-data",
+                "excel",
+                "excel-downloader",
+                "excel-writer",
+                "export",
+                "php-excel",
+                "php-excel-writer",
+                "spreadsheet",
+                "xlsx"
+            ],
+            "support": {
+                "issues": "https://github.com/ellumilel/php-excel-writer/issues",
+                "source": "https://github.com/ellumilel/php-excel-writer/tree/v0.1.9"
+            },
+            "install-path": "../ellumilel/php-excel-writer"
+        },
+        {
+            "name": "ifsnop/mysqldump-php",
+            "version": "v2.9",
+            "version_normalized": "2.9.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ifsnop/mysqldump-php.git",
+                "reference": "fc9c119fe5d70af9a685cad6a8ac612fd7589e25"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ifsnop/mysqldump-php/zipball/fc9c119fe5d70af9a685cad6a8ac612fd7589e25",
+                "reference": "fc9c119fe5d70af9a685cad6a8ac612fd7589e25",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "4.8.36",
+                "squizlabs/php_codesniffer": "1.*"
+            },
+            "time": "2020-04-03T14:40:40+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Ifsnop\\": "src/Ifsnop/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Diego Torres",
+                    "homepage": "https://github.com/ifsnop",
+                    "role": "Developer"
+                }
+            ],
+            "description": "PHP version of mysqldump cli that comes with MySQL",
+            "homepage": "https://github.com/ifsnop/mysqldump-php",
+            "keywords": [
+                "PHP7",
+                "database",
+                "hhvm",
+                "mariadb",
+                "mysql",
+                "mysql-backup",
+                "mysqldump",
+                "pdo",
+                "php",
+                "php5",
+                "sql"
+            ],
+            "install-path": "../ifsnop/mysqldump-php"
+        },
+        {
+            "name": "mauretto78/array-query",
+            "version": "v1.19",
+            "version_normalized": "1.19.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mauretto78/array-query.git",
+                "reference": "25fd8064c38bda132da83659614ba3b50acb56a6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mauretto78/array-query/zipball/25fd8064c38bda132da83659614ba3b50acb56a6",
+                "reference": "25fd8064c38bda132da83659614ba3b50acb56a6",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^5.6 || ^7.0"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "^2.3",
+                "phpunit/phpunit": "~5.7",
+                "satooshi/php-coveralls": "dev-master"
+            },
+            "time": "2019-10-22T14:50:07+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "ArrayQuery\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mauro Cassani",
+                    "email": "assistenza@easy-grafica.com",
+                    "homepage": "https://github.com/mauretto78"
+                }
+            ],
+            "description": "Array Query",
+            "homepage": "https://github.com/mauretto78/array-query",
+            "keywords": [
+                "array",
+                "php",
+                "query"
+            ],
+            "support": {
+                "issues": "https://github.com/mauretto78/array-query/issues",
+                "source": "https://github.com/mauretto78/array-query/tree/v1.19"
+            },
+            "install-path": "../mauretto78/array-query"
+        },
+        {
+            "name": "nimmneun/onesheet",
+            "version": "1.2.3",
+            "version_normalized": "1.2.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nimmneun/onesheet.git",
+                "reference": "2fd6cde1d8677b8de5f271707692fa8fe6614b68"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nimmneun/onesheet/zipball/2fd6cde1d8677b8de5f271707692fa8fe6614b68",
+                "reference": "2fd6cde1d8677b8de5f271707692fa8fe6614b68",
+                "shasum": ""
+            },
+            "require": {
+                "ext-zip": "*",
+                "php": ">=5.4.4"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^4"
+            },
+            "suggest": {
+                "ext-gd": "Required for accurate cell width sizing only.",
+                "ext-mbstring": "Required for cell width auto sizing"
+            },
+            "time": "2022-04-13T08:37:17+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "OneSheet\\": "src/OneSheet/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Stefan",
+                    "email": "nimmneun@gmail.com"
+                }
+            ],
+            "description": "OneSheet is a fast and lightweight single/multi sheet excel/xlsx file writer for PHP 5.4+, PHP 7 & PHP 8 with styling and cell auto-sizing support.",
+            "homepage": "https://github.com/nimmneun/onesheet",
+            "keywords": [
+                "excel",
+                "excel writer",
+                "excel2007",
+                "spreadsheet writer",
+                "xlsx"
+            ],
+            "support": {
+                "issues": "https://github.com/nimmneun/onesheet/issues",
+                "source": "https://github.com/nimmneun/onesheet/tree/1.2.3"
+            },
+            "install-path": "../nimmneun/onesheet"
+        },
+        {
+            "name": "rah/danpu",
+            "version": "2.7.0",
+            "version_normalized": "2.7.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/gocom/danpu.git",
+                "reference": "5e4fa78862d397831a19ca6987d3939690e2d05b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/gocom/danpu/zipball/5e4fa78862d397831a19ca6987d3939690e2d05b",
+                "reference": "5e4fa78862d397831a19ca6987d3939690e2d05b",
+                "shasum": ""
+            },
+            "require": {
+                "ext-pdo": "*",
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "5.7.*",
+                "satooshi/php-coveralls": "0.6.*",
+                "squizlabs/php_codesniffer": "3.*"
+            },
+            "suggest": {
+                "ext-zlib": "*"
+            },
+            "time": "2018-11-06T22:35:33+00:00",
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.x-dev"
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "psr-0": {
+                    "Rah\\Danpu\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jukka Svahn",
+                    "homepage": "https://github.com/gocom",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Zero-dependency MySQL dump library for easily exporting and importing databases",
+            "homepage": "https://github.com/gocom/danpu",
+            "keywords": [
+                "backup",
+                "database",
+                "db",
+                "dump",
+                "export",
+                "import",
+                "library",
+                "mysql",
+                "mysqldump",
+                "restore",
+                "sql"
+            ],
+            "install-path": "../rah/danpu"
+        },
+        {
+            "name": "rakit/validation",
+            "version": "v1.4.0",
+            "version_normalized": "1.4.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/rakit/validation.git",
+                "reference": "ff003a35cdf5030a5f2482299f4c93f344a35b29"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/rakit/validation/zipball/ff003a35cdf5030a5f2482299f4c93f344a35b29",
+                "reference": "ff003a35cdf5030a5f2482299f4c93f344a35b29",
+                "shasum": ""
+            },
+            "require": {
+                "ext-mbstring": "*",
+                "php": ">=7.0"
+            },
+            "require-dev": {
+                "php-coveralls/php-coveralls": "^2.2",
+                "phpunit/phpunit": "^6.5",
+                "squizlabs/php_codesniffer": "^3"
+            },
+            "time": "2020-08-27T05:07:01+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Rakit\\Validation\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Muhammad Syifa",
+                    "email": "emsifa@gmail.com"
+                }
+            ],
+            "description": "PHP Laravel like standalone validation library",
+            "support": {
+                "issues": "https://github.com/rakit/validation/issues",
+                "source": "https://github.com/rakit/validation/tree/v1.4.0"
+            },
+            "install-path": "../rakit/validation"
+        },
+        {
+            "name": "sendgrid/php-http-client",
+            "version": "3.14.4",
+            "version_normalized": "3.14.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sendgrid/php-http-client.git",
+                "reference": "6d589564522be290c7d7c18e51bcd8b03aeaf0b6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sendgrid/php-http-client/zipball/6d589564522be290c7d7c18e51bcd8b03aeaf0b6",
+                "reference": "6d589564522be290c7d7c18e51bcd8b03aeaf0b6",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "ext-json": "*",
+                "ext-mbstring": "*",
+                "php": ">=5.6"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "^2.16",
+                "phpunit/phpunit": "^5.7 || ^6.5",
+                "sebastian/version": "^1.0.6",
+                "squizlabs/php_codesniffer": "~2.0"
+            },
+            "suggest": {
+                "composer/ca-bundle": "Including this library will ensure that a valid CA bundle is available for secure connections"
+            },
+            "time": "2022-03-09T20:21:55+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "SendGrid\\": "lib/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Matt Bernier",
+                    "email": "mbernier@twilio.com"
+                },
+                {
+                    "name": "Elmer Thomas",
+                    "email": "ethomas@twilio.com"
+                }
+            ],
+            "description": "HTTP REST client, simplified for PHP",
+            "homepage": "http://github.com/sendgrid/php-http-client",
+            "keywords": [
+                "api",
+                "fluent",
+                "http",
+                "rest",
+                "sendgrid"
+            ],
+            "support": {
+                "issues": "https://github.com/sendgrid/php-http-client/issues",
+                "source": "https://github.com/sendgrid/php-http-client/tree/3.14.4"
+            },
+            "install-path": "../sendgrid/php-http-client"
+        },
+        {
+            "name": "sendgrid/sendgrid",
+            "version": "7.11.5",
+            "version_normalized": "7.11.5.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sendgrid/sendgrid-php.git",
+                "reference": "1d2fd3b72687fe82264853a8888b014f8f99e81f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sendgrid/sendgrid-php/zipball/1d2fd3b72687fe82264853a8888b014f8f99e81f",
+                "reference": "1d2fd3b72687fe82264853a8888b014f8f99e81f",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "ext-json": "*",
+                "ext-mbstring": "*",
+                "ext-openssl": "*",
+                "php": ">=5.6",
+                "sendgrid/php-http-client": "~3.10",
+                "starkbank/ecdsa": "0.*"
+            },
+            "replace": {
+                "sendgrid/sendgrid-php": "*"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^5.7.9 || ^6.4.3",
+                "squizlabs/php_codesniffer": "3.*",
+                "swaggest/json-diff": "^3.4"
+            },
+            "time": "2022-03-09T20:21:56+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "SendGrid\\Mail\\": "lib/mail/",
+                    "SendGrid\\Stats\\": "lib/stats/",
+                    "SendGrid\\Helper\\": "lib/helper/",
+                    "SendGrid\\Contacts\\": "lib/contacts/",
+                    "SendGrid\\EventWebhook\\": "lib/eventwebhook/"
+                },
+                "classmap": [
+                    "lib/BaseSendGridClientInterface.php",
+                    "lib/SendGrid.php",
+                    "lib/TwilioEmail.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "This library allows you to quickly and easily send emails through Twilio SendGrid using PHP.",
+            "homepage": "http://github.com/sendgrid/sendgrid-php",
+            "keywords": [
+                "email",
+                "grid",
+                "send",
+                "sendgrid",
+                "twilio sendgrid"
+            ],
+            "support": {
+                "issues": "https://github.com/sendgrid/sendgrid-php/issues",
+                "source": "https://github.com/sendgrid/sendgrid-php/tree/7.11.5"
+            },
+            "install-path": "../sendgrid/sendgrid"
+        },
+        {
+            "name": "shuchkin/simplexlsx",
+            "version": "0.8.33",
+            "version_normalized": "0.8.33.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/shuchkin/simplexlsx.git",
+                "reference": "0de04637f322df8a0ed233339d182c77fb4d0e9c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/shuchkin/simplexlsx/zipball/0de04637f322df8a0ed233339d182c77fb4d0e9c",
+                "reference": "0de04637f322df8a0ed233339d182c77fb4d0e9c",
+                "shasum": ""
+            },
+            "require": {
+                "ext-libxml": "*",
+                "ext-simplexml": "*",
+                "ext-zlib": "*"
+            },
+            "time": "2022-01-22T12:23:59+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "classmap": [
+                    "src/SimpleXLSX.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Sergey Shuchkin (SMSPILOT)",
+                    "email": "sergey.shuchkin@gmail.com",
+                    "homepage": "http://www.shuchkin.ru/"
+                }
+            ],
+            "description": "Parse and retrieve data from Excel XLSx files. MS Excel 2007 workbooks PHP reader.",
+            "homepage": "https://github.com/shuchkin/simplexlsx",
+            "keywords": [
+                "backend",
+                "excel",
+                "parser",
+                "php",
+                "xlsx"
+            ],
+            "support": {
+                "issues": "https://github.com/shuchkin/simplexlsx/issues",
+                "source": "https://github.com/shuchkin/simplexlsx/tree/0.8.33"
+            },
+            "install-path": "../shuchkin/simplexlsx"
+        },
+        {
+            "name": "starkbank/ecdsa",
+            "version": "0.0.5",
+            "version_normalized": "0.0.5.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/starkbank/ecdsa-php.git",
+                "reference": "484bedac47bac4012dc73df91da221f0a66845cb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/starkbank/ecdsa-php/zipball/484bedac47bac4012dc73df91da221f0a66845cb",
+                "reference": "484bedac47bac4012dc73df91da221f0a66845cb",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5"
+            },
+            "time": "2021-06-06T22:24:49+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "files": [
+                    "src/ellipticcurve.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "StarkBank",
+                    "email": "developers@starkbank.com",
+                    "homepage": "https://starkbank.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "fast openSSL-compatible implementation of the Elliptic Curve Digital Signature Algorithm (ECDSA)",
+            "homepage": "https://github.com/starkbank/ecdsa-php",
+            "support": {
+                "issues": "https://github.com/starkbank/ecdsa-php/issues",
+                "source": "https://github.com/starkbank/ecdsa-php/tree/v0.0.5"
+            },
+            "install-path": "../starkbank/ecdsa"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}

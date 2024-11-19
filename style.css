@@ -1,0 +1,66 @@
+nav ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a{
+    display: inline-block;
+    padding: 15px;
+    background: #eeeeee;
+}
+nav ul .active a {
+    background: #1976d2;
+    white-space: ;
+    color: white;
+}
+.container{
+    padding: 10px 50px;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+}
+
+th, td {
+    text-align: left;
+    padding: 16px;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+footer p {
+    background: #f1f4f5;
+    padding: 5px;
+}
+.display-inline-block{
+    display: inline-block;
+}
+
+#process_heading {
+    vertical-align: top;
+    margin: 0px;
+}
+#process_response {
+    padding-left: 10px;
+    border-left: 2px dashed #8d593a;
+}
+#process {
+    margin-top: 50px;
+}
+input[type='tel'],input[type='text'],input[type='number']{
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+button{
+    padding: 10px;
+}
+
